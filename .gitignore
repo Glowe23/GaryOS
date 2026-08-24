@@ -1,0 +1,54 @@
+# Local AI tooling and browser artifacts
+.agents/
+.codex/
+.playwright-mcp/
+
+# Secrets and local authentication
+.env
+.env.*
+!.env.example
+auth.json
+*.credentials.json
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Private and machine-specific operating data
+00_System_Profile/
+01_Inbox/
+02_Daily_Briefs/
+03_Weekly_Reviews/
+04_Open_Loops/
+05_Decisions/
+08_Reports/
+09_AC4S_Intelligence/
+10_Client_Work/
+12_Prompts/
+13_SOPs/
+15_Backups/
+16_Archive/
+19_Release_Notes/
+20_Knowledge_Base/
+21_Context_Exports/
+22_Sync_Plans/
+24_Approval_Queue/
+25_System_Maps/
+27_Quality_Scores/
+
+# Live improvement records. Keep the reusable operating rules.
+17_Improvement_Loop/*
+!17_Improvement_Loop/Self_Improvement_Rules.md
+18_Testing/*
+!18_Testing/Test_GaryOS_Portability.ps1
+
+# Machine-generated and duplicate material
+GaryOS_Master_Instructions_Generated_Addendum.md
+07_Scripts/Build_GaryOS_Master_Improvement_Engine.ps1
+11_AI_Tools/Tool_Inventory.md
+skills-lock.json
+*.log
+*.tmp
+*.db
+Thumbs.db
+.DS_Store
