@@ -12,11 +12,15 @@ This is an evolving framework, not a production-complete application and not an 
 
 ## Start here
 
-- [System instructions](HELI-OS_Master_Instructions.md)
+- [System instructions](GaryOS_Master_Instructions.md)
 - [Scripts](07_Scripts/)
 - [AI tool guidance](11_AI_Tools/)
 - [Testing](18_Testing/)
-- [Security and privacy](SECURITY.md)
+- [Security and privacy](docs/TECHNICAL_ROADMAP_AND_LIMITATIONS.md)
+- [Technical architecture](docs/ARCHITECTURE.md)
+- [Operating model and AI governance](docs/OPERATING_AND_AI_GOVERNANCE.md)
+- [Roadmap and limitations](docs/TECHNICAL_ROADMAP_AND_LIMITATIONS.md)
+- [Portfolio evidence](docs/PORTFOLIO_EVIDENCE.md)
 
 ## What HELI-OS is meant to do
 
